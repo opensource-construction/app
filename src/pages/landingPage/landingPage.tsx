@@ -17,7 +17,7 @@ export const LandingPage = () => {
             >
                 <div>
                     <Title order={1} mb="xl">Search the internet for materials!</Title>
-                    <SearchBar/>
+                    <SearchBar />
                 </div>
 
             </Flex>

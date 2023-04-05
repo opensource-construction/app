@@ -1,8 +1,8 @@
 import {AppShell, MantineProvider} from '@mantine/core';
 import React from "react";
-import {LandingPage} from '../../pages';
 import {Header} from "../header";
 import {Footer} from "../footer";
+import {AppRouter} from "../../routes/appRouter";
 
 export const App = () => {
     return (
@@ -12,7 +12,7 @@ export const App = () => {
                 navbar={<Header/>}
                 footer={<Footer/>}
             >
-                <LandingPage/>
+                <AppRouter/>
             </AppShell>
         </MantineProvider>
     );
